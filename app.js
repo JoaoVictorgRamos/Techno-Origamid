@@ -6,7 +6,6 @@ const vm = new Vue({
   },
   filters: {
     numeroPreco(valor) {
-      console.log(valor);
       return valor.toLocaleString("pt-BT", {
         style: "currency",
         currency: "BRL",
