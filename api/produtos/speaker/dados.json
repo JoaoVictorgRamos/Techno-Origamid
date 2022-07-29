@@ -8,13 +8,13 @@
   "reviews": [
     {
       "nome": "Rogério",
-      "estrelas": 5,
-      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+      "estrelas": 3,
+      "descricao": "Tem uma qualidade sonora mediana e atende devagar aos comandos de automação residencial."
     },
     {
       "nome": "Nathália",
-      "estrelas": 4,
-      "descricao": "Gostei, mas o preço poderia ser melhor."
+      "estrelas": 1,
+      "descricao": "Vem sem o carregador e não funciona com a Alexa."
     }
   ]
 }

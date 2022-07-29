@@ -8,13 +8,13 @@
   "reviews": [
     {
       "nome": "Rogério",
-      "estrelas": 5,
-      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+      "estrelas": 3,
+      "descricao": "Aparelho é para se utilizar em estudo e leitura pois nao oferece muita qualidade."
     },
     {
       "nome": "Nathália",
-      "estrelas": 4,
-      "descricao": "Gostei, mas o preço poderia ser melhor."
+      "estrelas": 3,
+      "descricao": "Perfeito para o que se propõe!! Som, tamnaho, peso."
     }
   ]
 }

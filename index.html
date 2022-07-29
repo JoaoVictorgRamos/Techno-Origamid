@@ -16,7 +16,28 @@
 <body>
   <div id="app">
 
-    <section class="modal">{{produto}}</section>
+    <section class="modal">
+      <div class="moda_container">
+        <div class="modal_img">
+          <img :src="produto.img" :alt="produto.nome"></img>
+        </div>
+        <div class="modal_dados">
+          <span class="modal_preco">{{produto.preco}}</span>
+          <h2 class="modal_titulo">{{produto.nome}}</h2>
+          <p class="modal_descricao">{{produto.descricao}}</p>
+          <button class="modal_btn">Adicionar Item</button>
+        </div>
+        <div class="avaliacoes">
+          <h2 class="avaliacoes_subtitulo">Avaliações</h2>
+          <ul>
+            <li v-for="avaliacoes in produto.reviews" class="avaliacao">
+              <p class="avaliacao_descricao">{{avaliacoes.descricao}}</p>
+              <p class="avaliacao_usuario">{{avaliacoes.nome}} | {{avaliacoes.estrelas}} estrelas</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
     <section class="produtos">
       <div v-for="item in produtos" @click="fetchProduto(item.id)" :key="item.id" class="produto">

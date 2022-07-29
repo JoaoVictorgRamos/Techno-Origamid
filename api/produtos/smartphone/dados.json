@@ -7,12 +7,12 @@
   "img": "./api/produtos/smartphone/smartphone-foto.jpg",
   "reviews": [
     {
-      "nome": "Rogério",
+      "nome": "Carla",
       "estrelas": 5,
-      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+      "descricao": "Comprei para minha filha, ela amou. Até agora tudo maravilhoso."
     },
     {
-      "nome": "Nathália",
+      "nome": "Amanda",
       "estrelas": 4,
       "descricao": "Gostei, mas o preço poderia ser melhor."
     }

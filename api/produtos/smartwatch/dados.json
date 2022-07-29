@@ -7,14 +7,14 @@
   "img": "./api/produtos/smartwatch/smartwatch-foto.jpg",
   "reviews": [
     {
-      "nome": "Rogério",
+      "nome": "José",
       "estrelas": 5,
-      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+      "descricao": "Ótimo produto, gostei tanto que vou pedir mais!"
     },
     {
-      "nome": "Nathália",
-      "estrelas": 4,
-      "descricao": "Gostei, mas o preço poderia ser melhor."
+      "nome": "Brena",
+      "estrelas": 3,
+      "descricao": "O manual podia ser enviado em português!"
     }
   ]
 }
